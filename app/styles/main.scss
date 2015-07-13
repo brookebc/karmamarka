@@ -15,6 +15,16 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 body {
     padding-top: 20px;
     padding-bottom: 20px;
+    overflow-x: hidden;
+    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-muted {
+    color: #777;
+}
+
+.text-primary {
+    color: #fed136;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -91,3 +101,5 @@ body {
         border-bottom: 0;
     }
 }
+
+
